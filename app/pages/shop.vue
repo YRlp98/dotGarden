@@ -7,16 +7,16 @@
         <div v-else-if="error" class="text-red-600">Failed to load products.</div>
 
         <!-- Products -->
-        <div v-else class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div v-for="p in products" :key="p.id" class="border rounded-lg shadow flex flex-col">
-                <img :src="p.images?.[0] ?? ''" :alt="p.name" class="w-full object-cover rounded-t-md" />
-                <div class="flex flex-col p-4">
+        <div v-else class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div v-for="p in products" :key="p.id" class="border rounded-lg shadow flex flex-col h-full">
+                <img :src="p.images?.[0] ?? ''" :alt="p.name" class="h-80 w-full object-cover rounded-t-md" />
+                <div class="flex flex-col p-4 flex-1">
                     <NuxtLink :to="`/product/${p.id}`">
                         <h3 class="text-black text-xl font-semibold hover:underline">{{ p.name }}</h3>
                     </NuxtLink>
-                    <p class="text-gray-600 mt-2">{{ p.description }}</p>
-                    <p class="text-black text-lg font-bold mt-4">$ {{ p.price }}</p>
-                    <button class="mt-8 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer"
+                    <p class="text-gray-600 mt-2 flex-1">{{ p.description }}</p> <!-- takes remaining space -->
+                    <p class="mb-2 text-black text-lg font-bold mt-4">$ {{ p.price }}</p>
+                    <button class="mt-auto px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer"
                         @click="cart.addItem(p)">
                         Add to Cart
                     </button>
