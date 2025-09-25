@@ -9,9 +9,11 @@
         <!-- Products -->
         <div v-else class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div v-for="p in products" :key="p.id" class="border rounded-lg shadow flex flex-col">
-                <img :src="p.image" :alt="p.name" class="w-full object-cover rounded-t-md" />
+                <img :src="p.images?.[0] ?? ''" :alt="p.name" class="w-full object-cover rounded-t-md" />
                 <div class="flex flex-col p-4">
-                    <h3 class="text-black text-xl font-semibold">{{ p.name }}</h3>
+                    <NuxtLink :to="`/product/${p.id}`">
+                        <h3 class="text-black text-xl font-semibold hover:underline">{{ p.name }}</h3>
+                    </NuxtLink>
                     <p class="text-gray-600 mt-2">{{ p.description }}</p>
                     <p class="text-black text-lg font-bold mt-4">$ {{ p.price }}</p>
                     <button class="mt-8 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer"
