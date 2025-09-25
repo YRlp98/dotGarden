@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Greenhouse Sheet",
+    "price": 120,
+    "image": "/images/greenhouse-sheet.jpg",
+    "description": "Durable IoT-enabled sheet that controls humidity, airflow, and temperature."
+  },
+  {
+    "id": 2,
+    "name": "IoT Sensor Kit",
+    "price": 80,
+    "image": "/images/iot-sensor.jpg",
+    "description": "Complete sensor package for monitoring soil, light, and water levels."
+  },
+  {
+    "id": 3,
+    "name": "AI Growth Plan (1 year)",
+    "price": 50,
+    "image": "/images/ai-plan.jpg",
+    "description": "AI-powered growth recommendations tailored to your greenhouse environment."
+  }
+]
