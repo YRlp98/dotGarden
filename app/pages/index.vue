@@ -19,7 +19,7 @@
                     plants with ease.
                 </p>
                 <NuxtLink to="/shop"
-                    class="mt-6 inline-block px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">
+                    class="mt-6 inline-block px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700">
                     Explore Shop
                 </NuxtLink>
             </div>

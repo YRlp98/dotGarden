@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Compact Greenhouse Sheet - LG",
-        "price": 750,
+        "name": "Compact Multi-layer Greenhouse - L",
+        "price": 799,
         "images": [
             "/images/products/p-1.png",
             "/images/products/p-2.png"
@@ -11,8 +11,8 @@
     },
     {
         "id": 2,
-        "name": "Greenhouse Sheet - XL",
-        "price": 925,
+        "name": "Compact Multi-layer Greenhouse - XL",
+        "price": 999,
         "images": [
             "/images/products/p-3.png"
         ],
@@ -20,8 +20,8 @@
     },
     {
         "id": 3,
-        "name": "Greenhouse (Wall) - SM",
-        "price": 600,
+        "name": "Multi-layer Greenhouse (Wall) - SM",
+        "price": 249,
         "images": [
             "/images/products/p-4.png"
         ],
@@ -29,8 +29,8 @@
     },
     {
         "id": 4,
-        "name": "Compact Greenhouse - XS",
-        "price": 675,
+        "name": "Compact Corner Multi-layer Greenhouse - XS",
+        "price": 499,
         "images": [
             "/images/products/p-5-1.png",
             "/images/products/p-5.png"

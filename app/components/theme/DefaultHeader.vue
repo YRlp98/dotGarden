@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-white/60 backdrop-blur-lg fixed top-0 z-50">
+  <header class="w-full bg-white/70 backdrop-blur-lg fixed top-0 z-50">
     <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
       <!-- Logo -->
       <NuxtLink to="/" class="text-2xl font-bold text-green-700">

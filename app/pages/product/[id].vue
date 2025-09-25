@@ -19,7 +19,7 @@
             <div>
                 <h1 class="text-black text-3xl font-bold">{{ product.name }}</h1>
                 <p class="mt-4 text-gray-600">{{ product.description }}</p>
-                <p class="mt-6 text-2xl font-semibold text-green-700">$ {{ product.price }}</p>
+                <p class="mt-6 text-2xl font-semibold text-green-700">€ {{ product.price }}</p>
 
                 <button class="mt-6 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700"
                     @click="addToCart(product)">

@@ -15,7 +15,7 @@
                         <h3 class="text-black text-xl font-semibold hover:underline">{{ p.name }}</h3>
                     </NuxtLink>
                     <p class="text-gray-600 mt-2 flex-1">{{ p.description }}</p> <!-- takes remaining space -->
-                    <p class="mb-2 text-black text-lg font-bold mt-4">$ {{ p.price }}</p>
+                    <p class="mb-2 text-black text-lg font-bold mt-4">€ {{ p.price }}</p>
                     <button class="mt-auto px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 cursor-pointer"
                         @click="cart.addItem(p)">
                         Add to Cart
