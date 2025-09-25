@@ -1,14 +1,28 @@
 <template>
     <div class="min-h-screen flex flex-col">
         <!-- Hero -->
-        <section class="h-screen flex flex-col items-center justify-center text-center py-20 bg-green-100">
-            <h1 class="text-5xl font-bold text-green-800">dotGarden 🌱</h1>
-            <p class="mt-4 text-lg text-gray-600 max-w-xl">
-                Smart IoT greenhouses connected to AI. Monitor, optimize, and grow your plants with ease.
-            </p>
-            <NuxtLink to="/shop" class="mt-6 px-6 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800">
-                Explore Shop
-            </NuxtLink>
+        <section class="relative h-screen flex flex-col items-center justify-center text-center">
+            <!-- Background image -->
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/hero-bg.jpg');">
+            </div>
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/40"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 px-6">
+                <h1 class="text-5xl font-bold text-white drop-shadow-lg">
+                    dotGarden 🌱
+                </h1>
+                <p class="mt-4 text-lg text-gray-100 max-w-xl mx-auto drop-shadow">
+                    Smart IoT greenhouses connected to AI. Monitor, optimize, and grow your
+                    plants with ease.
+                </p>
+                <NuxtLink to="/shop"
+                    class="mt-6 inline-block px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">
+                    Explore Shop
+                </NuxtLink>
+            </div>
         </section>
 
         <!-- Features -->
