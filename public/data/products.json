@@ -32,6 +32,7 @@
         "name": "Compact Greenhouse - XS",
         "price": 675,
         "images": [
+            "/images/products/p-5-1.png",
             "/images/products/p-5.png"
         ],
         "description": "Complete sensor package for monitoring soil, light, and water levels."
