@@ -1,6 +1,6 @@
 <template>
     <div class="p-10 max-w-screen-2xl mx-auto w-full">
-        <h2 class="mt-20 text-3xl font-bold mb-6 text-green-600">Shop Products</h2>
+        <h2 class="mt-5 text-3xl font-bold mb-6 text-green-600">Shop Products</h2>
 
         <!-- Loading/Error states -->
         <div v-if="pending" class="text-gray-500">Loading products...</div>

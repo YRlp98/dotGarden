@@ -1,9 +1,9 @@
 <template>
     <div class="p-10 max-w-4xl mx-auto">
-        <div v-if="pending" class="mt-20 text-gray-500">Loading product...</div>
-        <div v-else-if="error" class="mt-20 text-red-600">Product not found.</div>
+        <div v-if="pending" class="mt-5 text-gray-500">Loading product...</div>
+        <div v-else-if="error" class="mt-5 text-red-600">Product not found.</div>
 
-        <div v-else-if="product" class="mt-20 grid grid-cols-1 gap-8">
+        <div v-else-if="product" class="mt-5 grid grid-cols-1 gap-8">
             <!-- Images -->
             <div>
                 <img :src="selectedImage" :alt="product.name" class="w-full h-120 object-cover rounded-lg shadow mb-4" />
