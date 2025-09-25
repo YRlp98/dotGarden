@@ -3,10 +3,10 @@
         <div v-if="pending" class="mt-20 text-gray-500">Loading product...</div>
         <div v-else-if="error" class="mt-20 text-red-600">Product not found.</div>
 
-        <div v-else-if="product" class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div v-else-if="product" class="mt-20 grid grid-cols-1 gap-8">
             <!-- Images -->
             <div>
-                <img :src="selectedImage" :alt="product.name" class="w-full h-80 object-cover rounded-lg shadow mb-4" />
+                <img :src="selectedImage" :alt="product.name" class="w-full h-120 object-cover rounded-lg shadow mb-4" />
                 <div class="flex gap-2">
                     <img v-for="img in product.images" :key="img" :src="img"
                         class="w-20 h-20 object-cover rounded cursor-pointer border-2"

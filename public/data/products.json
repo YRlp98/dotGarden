@@ -1,32 +1,38 @@
 [
     {
         "id": 1,
-        "name": "Smart Greenhouse Sheet",
-        "price": 120,
+        "name": "Compact Greenhouse Sheet - LG",
+        "price": 750,
         "images": [
-            "/images/products/p1.png",
-            "/images/hero-bg.jpg",
-            "/images/hero-bg.jpg"
+            "/images/products/p-1.png",
+            "/images/products/p-2.png"
         ],
         "description": "Durable IoT-enabled sheet that controls humidity, airflow, and temperature."
     },
     {
         "id": 2,
-        "name": "IoT Sensor Kit",
-        "price": 80,
+        "name": "Greenhouse Sheet - XL",
+        "price": 925,
         "images": [
-            "/images/hero-bg.jpg",
-            "/images/hero-bg.jpg"
+            "/images/products/p-3.png"
         ],
         "description": "Complete sensor package for monitoring soil, light, and water levels."
     },
     {
         "id": 3,
-        "name": "IoT Sensor Kit",
-        "price": 80,
+        "name": "Greenhouse (Wall) - SM",
+        "price": 600,
         "images": [
-            "/images/hero-bg.jpg",
-            "/images/hero-bg.jpg"
+            "/images/products/p-4.png"
+        ],
+        "description": "Complete sensor package for monitoring soil, light, and water levels."
+    },
+    {
+        "id": 4,
+        "name": "Compact Greenhouse - XS",
+        "price": 675,
+        "images": [
+            "/images/products/p-5.png"
         ],
         "description": "Complete sensor package for monitoring soil, light, and water levels."
     }
