@@ -26,7 +26,7 @@
         </section>
 
         <!-- Features -->
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
+        <section class="text-gray-800 grid grid-cols-1 md:grid-cols-3 gap-8 p-10 max-w-screen-2xl mx-auto w-full">
             <div class="p-6 border rounded-xl shadow">
                 <h3 class="text-xl font-semibold">🌞 Smart Light Control</h3>
                 <p class="mt-2 text-gray-600">AI adjusts the right amount of light for healthy growth.</p>

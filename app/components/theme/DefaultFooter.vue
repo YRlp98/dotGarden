@@ -33,7 +33,7 @@
                 <h3 class="text-lg font-semibold mb-4">Stay Updated</h3>
                 <form class="flex flex-col gap-3">
                     <input type="email" placeholder="Enter your email"
-                        class="px-4 py-2 rounded-md text-gray-800 focus:outline-none" />
+                        class="px-4 py-2 rounded-md border border-white text-white focus:outline-none" />
                     <button type="submit" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-md font-medium">
                         Subscribe
                     </button>

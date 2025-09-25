@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-white/70 backdrop-blur-md fixed top-0 z-50">
+  <header class="w-full bg-white/60 backdrop-blur-lg fixed top-0 z-50">
     <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
       <!-- Logo -->
       <NuxtLink to="/" class="text-2xl font-bold text-green-700">
@@ -24,7 +24,7 @@
 
       <!-- Cart Button -->
       <NuxtLink to="/cart"
-        class="relative ml-4 flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
+        class="relative ml-4 flex items-center gap-2 px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
         Cart
         <span v-if="cart.itemsCount > 0"
           class="absolute -top-2 -right-2 bg-orange-600 text-white text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full">
